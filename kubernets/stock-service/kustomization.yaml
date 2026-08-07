@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: stock-market
 
 resources:
-  - stock-market-configmap.yaml
-  - stock-market-secret.yaml
-  - stock-market-deployment.yaml
-  - stock-market-service.yaml
-  - stock-market-ingress.yaml
-  - stock-market-hpa.yaml
+  - stock-service-configmap.yaml
+  - stock-service-secret.yaml
+  - stock-service-deployment.yaml
+  - stock-service-service.yaml
+  - stock-service-ingress.yaml
+  - stock-service-hpa.yaml
