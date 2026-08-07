@@ -21,8 +21,8 @@ spec:
       containers:
         - name: stock-service
 
-          image: manish28/stockservice:v1
-
+          image: manish28/stockservice:latest
+                          
           imagePullPolicy: Always
 
           ports:
