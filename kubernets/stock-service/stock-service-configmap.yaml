@@ -10,6 +10,6 @@ data:
   SPRING_PROFILES_ACTIVE: prod
   KAFKA_BOOTSTRAP_SERVERS: kafka:9092
   REDIS_CLUSTER_NODES: redis:6379
-  SPRING_DATASOURCE_URL: jdbc:h2:mem:stockdb
-  SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.h2.Driver
+  DB_URL: jdbc:h2:mem:stockdb
+  DRIVER_CLASS_NAME: org.h2.Driver
 
