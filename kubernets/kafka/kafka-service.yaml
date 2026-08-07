@@ -1,13 +1,23 @@
 apiVersion: v1
 kind: Service
+
 metadata:
   name: kafka
   namespace: stock-market
+
 spec:
+
   selector:
     app: kafka
+
+
   ports:
+
   - name: kafka
     port: 9092
     targetPort: 9092
-  type: ClusterIP
+
+
+  - name: controller
+    port: 9093
+    targetPort: 9093
