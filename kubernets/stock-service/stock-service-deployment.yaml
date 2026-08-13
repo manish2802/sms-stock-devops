@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: stock-service
-          image: manish28/stockservice:latest
+          image: manish28/stockservice:v1
 
           ports:
             - containerPort: 9001
